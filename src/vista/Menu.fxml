@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="116.0" prefWidth="286.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.MenuController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="182.0" prefWidth="259.0">
+         <children>
+            <AnchorPane id="AnchorPane" prefHeight="195.0" prefWidth="285.0">
+               <children>
+                  <AnchorPane id="AnchorPane" prefHeight="195.0" prefWidth="285.0">
+                     <children>
+                        <Button fx:id="btnIntroducir" layoutX="53.0" layoutY="28.0" mnemonicParsing="false" onAction="#introducirMatricula" prefHeight="17.0" prefWidth="193.0" text="INSERTAR MATRICULA" />
+                        <Button fx:id="btnConsultar" layoutX="53.0" layoutY="91.0" mnemonicParsing="false" onAction="#consultarMatricula" prefHeight="25.0" prefWidth="193.0" text="CONSULTAR MATRICULAS" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
