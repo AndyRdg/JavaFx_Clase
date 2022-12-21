@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.ConsultarMatriculaController">
+   <children>
+      <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0">
+               <children>
+                  <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0">
+                     <children>
+                        <AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0">
+                           <children>
+                              <ComboBox fx:id="cmbCursos" layoutX="198.0" layoutY="65.0" prefHeight="25.0" prefWidth="226.0" />
+                              <TableView fx:id="tblregistroEntradas" layoutX="20.0" layoutY="136.0" prefHeight="199.0" prefWidth="574.0">
+                                <columns>
+                                    <TableColumn fx:id="colMatricula" prefWidth="99.0" text="MATRICULA" />
+                                  <TableColumn fx:id="colNIF" prefWidth="60.0" text="NIF" />
+                                  <TableColumn fx:id="colNombre" minWidth="0.0" prefWidth="126.0" text="NOMBRE" />
+                                    <TableColumn fx:id="colDireccion" prefWidth="84.0" text="DIRECCION" />
+                                    <TableColumn fx:id="colPoblacion" minWidth="0.0" prefWidth="77.0" text="POBLACION" />
+                                    <TableColumn fx:id="colFechaMAtricula" minWidth="0.0" prefWidth="186.0" text="FECHA" />
+                                </columns>
+                              </TableView>
+                              <Button fx:id="btnCargarDatos" layoutX="273.0" layoutY="347.0" mnemonicParsing="false" onAction="#cargarDatos" text="CARGAR DATOS" />
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
